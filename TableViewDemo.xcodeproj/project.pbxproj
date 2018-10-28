@@ -14,6 +14,8 @@
 		1C67CA6A2185511C00A4F676 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1C67CA682185511C00A4F676 /* LaunchScreen.storyboard */; };
 		1C67CA752185511C00A4F676 /* TableViewDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C67CA742185511C00A4F676 /* TableViewDemoTests.swift */; };
 		1C67CA802185511C00A4F676 /* TableViewDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C67CA7F2185511C00A4F676 /* TableViewDemoUITests.swift */; };
+		1C67CA902185546500A4F676 /* FlowerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C67CA8E2185546500A4F676 /* FlowerTableViewCell.swift */; };
+		1C67CA912185546500A4F676 /* FlowerTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C67CA8F2185546500A4F676 /* FlowerTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		1C67CA7B2185511C00A4F676 /* TableViewDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C67CA7F2185511C00A4F676 /* TableViewDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewDemoUITests.swift; sourceTree = "<group>"; };
 		1C67CA812185511C00A4F676 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1C67CA8E2185546500A4F676 /* FlowerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerTableViewCell.swift; sourceTree = "<group>"; };
+		1C67CA8F2185546500A4F676 /* FlowerTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FlowerTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 		1C67CA5E2185511A00A4F676 /* TableViewDemo */ = {
 			isa = PBXGroup;
 			children = (
+				1C67CA8D2185542D00A4F676 /* Components */,
 				1C67CA5F2185511A00A4F676 /* AppDelegate.swift */,
 				1C67CA612185511A00A4F676 /* ViewController.swift */,
 				1C67CA632185511A00A4F676 /* Main.storyboard */,
@@ -123,6 +128,15 @@
 				1C67CA812185511C00A4F676 /* Info.plist */,
 			);
 			path = TableViewDemoUITests;
+			sourceTree = "<group>";
+		};
+		1C67CA8D2185542D00A4F676 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				1C67CA8E2185546500A4F676 /* FlowerTableViewCell.swift */,
+				1C67CA8F2185546500A4F676 /* FlowerTableViewCell.xib */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +245,7 @@
 			files = (
 				1C67CA6A2185511C00A4F676 /* LaunchScreen.storyboard in Resources */,
 				1C67CA672185511C00A4F676 /* Assets.xcassets in Resources */,
+				1C67CA912185546500A4F676 /* FlowerTableViewCell.xib in Resources */,
 				1C67CA652185511A00A4F676 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C67CA622185511A00A4F676 /* ViewController.swift in Sources */,
+				1C67CA902185546500A4F676 /* FlowerTableViewCell.swift in Sources */,
 				1C67CA602185511A00A4F676 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
